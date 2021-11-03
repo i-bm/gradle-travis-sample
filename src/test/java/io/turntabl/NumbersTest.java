@@ -26,7 +26,7 @@ public class NumbersTest {
 
     @Test
     public void testLessThanAThousand() {
-        boolean result = Numbers.isGreaterThanZeroAndLessThanAThousand(999);
+        boolean result = Numbers.isGreaterThanZeroAndLessThanAThousand(989);
         assertTrue(result);
     }
 
